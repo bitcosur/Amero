@@ -1,0 +1,22 @@
+[Unit]
+Description=Amero's distributed currency daemon
+After=network.target
+
+[Service]
+User=amerocore
+Group=amerocore
+
+Type=forking
+PIDFile=/var/lib/amerod/amerod.pid
+ExecStart=/usr/bin/amerod -daemon -pid=/var/lib/amerod/amerod.pid \
+-conf=/etc/amerocore/amero.conf -datadir=/var/lib/amerod -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

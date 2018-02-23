@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Amero
+Comment=Amero P2P Cryptocurrency
+Comment[fr]=Amero, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Amero, eşten eşe kriptografik sanal para birimi
+Exec=amero-qt %u
+Terminal=false
+Type=Application
+Icon=amero128
+MimeType=x-scheme-handler/amero;
+Categories=Office;Finance;
