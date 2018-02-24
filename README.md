@@ -3,7 +3,7 @@ Amero Core staging tree 0.12.2
 
 `master:` [![Build Status](https://travis-ci.org/ameropay/amero.svg?branch=master)](https://travis-ci.org/ameropay/amero) `develop:` [![Build Status](https://travis-ci.org/ameropay/amero.svg?branch=develop)](https://travis-ci.org/ameropay/amero/branches)
 
-https://www.amero.org
+https://www.getamero.com
 
 
 What is Amero?
@@ -16,7 +16,7 @@ are carried out collectively by the network. Amero Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Amero Core software, see https://www.amero.org/get-amero/.
+the Amero Core software, see https://www.getamero.com/amero/.
 
 
 License
@@ -29,7 +29,7 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/ameropay/amero/tags) are created to indicate new official,
+[Tags](https://github.com/bitcosur/amero/tags) are created to indicate new official,
 stable release versions of Amero Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -74,4 +74,3 @@ Translations are periodically pulled from Transifex and merged into the git repo
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
 
-Translators should also follow the [forum](https://www.amero.org/forum/topic/amero-worldwide-collaboration.88/).
