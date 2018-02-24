@@ -1,7 +1,5 @@
-Amero Core staging tree 0.12.2
+Amero Core staging tree 1.0.0
 ===============================
-
-`master:` [![Build Status](https://travis-ci.org/ameropay/amero.svg?branch=master)](https://travis-ci.org/ameropay/amero) `develop:` [![Build Status](https://travis-ci.org/ameropay/amero.svg?branch=develop)](https://travis-ci.org/ameropay/amero/branches)
 
 https://www.getamero.com
 
@@ -61,16 +59,3 @@ Changes should be tested by somebody other than the developer who wrote the
 code. This is especially important for large or high-risk changes. It is useful
 to add a test plan to the pull request description if testing the changes is
 not straightforward.
-
-Translations
-------------
-
-Changes to translations as well as new translations can be submitted to
-[Amero Core's Transifex page](https://www.transifex.com/projects/p/amero/).
-
-Translations are periodically pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
-
-**Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
-
