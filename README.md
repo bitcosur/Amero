@@ -3,20 +3,16 @@ Amero Core staging tree 0.12.2
 
 `master:` [![Build Status](https://travis-ci.org/ameropay/amero.svg?branch=master)](https://travis-ci.org/ameropay/amero) `develop:` [![Build Status](https://travis-ci.org/ameropay/amero.svg?branch=develop)](https://travis-ci.org/ameropay/amero/branches)
 
-https://www.amero.org
+https://www.getamero.com
 
 
 What is Amero?
 ----------------
 
-Amero is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Amero uses peer-to-peer technology
-to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Amero Core is the name of the open
-source software which enables the use of this currency.
+Amero is the Latin American Common Currency, anonymous, decentralized and independet from politics and politicians. A Dash fork using NeoScrypt algorithm that allows P2P transactions in a fast, secure, private and anonymous way.
 
 For more information, as well as an immediately useable, binary version of
-the Amero Core software, see https://www.amero.org/get-amero/.
+the Amero Core software, see https://www.getamero.com/amero/.
 
 
 License
