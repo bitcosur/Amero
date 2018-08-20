@@ -142,7 +142,16 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x000004dc9bd956bf79a7b1687ae0829a9af924b192d564fc77cea2fd9572b3f3"));
         assert(genesis.hashMerkleRoot == uint256S("0x5b5b31ffb9ce07446713694a385f5f15ec0ecd384408f5c17dfd32eb88231a6a"));
 
-        vSeeds.push_back(CDNSSeedData("ameroplus.org", "dnsseed.ameroplus.org"));
+        vSeeds.push_back(CDNSSeedData("ameroplus.org", "168.235.89.207"));
+        vSeeds.push_back(CDNSSeedData("ameroplus.org", "168.235.109.196"));
+        vSeeds.push_back(CDNSSeedData("ameroplus.org", "168.235.82.170"));
+        vSeeds.push_back(CDNSSeedData("ameroplus.org", "168.235.90.21"));
+        vSeeds.push_back(CDNSSeedData("ameroplus.org", "121.63.252.171"));
+        vSeeds.push_back(CDNSSeedData("ameroplus.org", "185.250.206.114"));
+        vSeeds.push_back(CDNSSeedData("ameroplus.org", "178.120.7.217"));
+        vSeeds.push_back(CDNSSeedData("ameroplus.org", "35.139.77.26"));
+        vSeeds.push_back(CDNSSeedData("ameroplus.org", "46.173.214.146"));
+        vSeeds.push_back(CDNSSeedData("ameroplus.org", "94.130.184.67"));
 
         // Amero addresses start with 'A'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,23);
