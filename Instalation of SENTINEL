@@ -1,0 +1,31 @@
+Preparation
+-----------
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install mysql-server libmysqlclient-dev
+```
+
+Download SENTINEL source code
+----------------------------
+```
+cd ~
+git clone https://github.com/evan82/sentinel.git
+
+Setup configuration & database
+-----------------------------------
+
+```
+cd sentinel
+cp config.py.example config.py
+vim config.py
+mysql < database/001.sql
+```
+
+Run SENTINEL
+-----------------------------------
+```
+./sentinel-cli
+```
